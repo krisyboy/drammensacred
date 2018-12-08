@@ -1,39 +1,42 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300);
-*{
-  margin:0;
+
+* {
+  margin: 0;
   padding: 0;
 }
+
 html, body {
   height: 100%;
 }
-body {
 
- background-color: #411e5b;
+body {
+  background-color: #411e5b;
 }
 
 /* NAV BAR */
 .navbar {
-  background: rgba(226, 24, 126, 0.75);
+  background: rgba(195, 0, 101);
 }
+
 .navbar .nav-link {
   color: #FFFFFF;
 }
+
 .navbar .nav-link:hover {
   color: #FFBF56;
 }
 
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
-  background-color: #f39700;
+  background-color: #FFBF56;
 }
 
 .dropdown .dropdown-menu {
-  background-color: #FFBF56;
+  background-color: #C30065;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -ms-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.4s;
-
   max-height: 0;
   display: block;
   overflow: hidden;
@@ -45,7 +48,7 @@ body {
   opacity: 1;
 }
 
-/*JUMBOTRON*/
+/*HOME - JUMBOTRON*/
 .img-wrapper {
   position: relative;
 }
@@ -67,7 +70,6 @@ body {
   content: ' ';
   display: block;
   height: 56%;
-
 }
 
 .img-overlay button {
@@ -75,36 +77,39 @@ body {
 }
 
 .artistcall button {
-  margin-left: 42%;
   border-radius: 30px 30px 30px 30px;
 }
 
+/* HOME - BLOG SECTION */
 .blogcall {
   background-color: #e2187e;
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 7px 40px #000000 ;
+  box-shadow: 5px 7px 40px #000000;
 }
+
 .blogcall h1 {
   font-family: "Courier New", monospace;
-  color:white;
+  color: white;
   font-size: 3em;
 }
+
 .blogcall p {
   margin-top: 1em;
-  color:white;
+  color: white;
 }
+
 .blogcall button {
   margin-bottom: -3%;
   border-radius: 30px 30px 30px 30px;
 }
 
-/* about us */
+/* HOME - ABOUT SECTION */
 .aboutcall {
   background-color: #e2187e;
   border: 1px solid;
   padding: 10px;
-  box-shadow: 5px 7px 40px #000000 ;
+  box-shadow: 5px 7px 40px #000000;
   margin-top: 10em;
   margin-bottom: 10em;
 }
@@ -114,14 +119,15 @@ body {
   font-size: 1em;
   margin-top: 1em;
 }
+
 .aboutcall img {
   height: auto;
   width: 100%;
-
 }
-.aboutcall h1{
+
+.aboutcall h1 {
   font-family: "Courier New", monospace;
-  color:white;
+  color: white;
   font-size: 3em;
 }
 
@@ -130,12 +136,24 @@ body {
   border-radius: 30px 30px 30px 30px;
 }
 
-/* PAGE TICKETS */
+/* TICKETS - GUIDE */
 .desc {
   color: white;
 }
 
-.my-container{
+.desc-container {
+  box-shadow: 0px 0px 30px 20px #411e5b inset;
+  margin-top: 6%;
+  font-family: Courier New;
+}
+
+.desc-container span {
+  font-style: italic;
+  font-family: Courier New;
+}
+
+/* TICKETS - GRID */
+.my-container {
   background-image: linear-gradient(to bottom right, #5994ce, #b957ce);
   box-shadow: 0px 0px 30px 20px #411e5b inset;
   margin-top: 5%;
@@ -143,13 +161,14 @@ body {
   padding-top: 10px;
 }
 
-.my-row{
+.my-row {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
-.my-col{
+
+.my-col {
   color: white;
   box-shadow: 0px 0px 0px 0px #411e5b inset;
   display: flex;
@@ -157,10 +176,11 @@ body {
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-right:8px;
-  margin-right:8px;
-  }
-  .btn {
+  margin-right: 8px;
+  margin-right: 8px;
+}
+
+.btn {
   width: 200px;
   font-size: 16px;
   font-weight: 600;
@@ -168,92 +188,95 @@ body {
   cursor: pointer;
   margin: 10px;
   height: 60px;
-  text-align:center;
+  text-align: center;
   border: none;
   background-size: 300% 100%;
   border-radius: 30px 30px 30px 30px;
-  moz-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  }
+}
 
-  .btn:hover {
+.btn:hover {
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  }
+}
 
-  .btn:focus {
+.btn:focus {
   outline: none;
-  }
+}
 
-  .btn {
-  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+.btn {
+  background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
   box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
-  }
-  .btn1 {
+}
+
+.btn1 {
   width: 135px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   margin: 30px;
   padding-top: 10px;
   height: 100px;
-  text-align:center;
   border-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a, #FBB03B);
   border-image-slice: 1;
   border-width: 5px;
-  background-size: 300% 100%;
-  border-radius: 0px;
   background-color: transparent;
-  }
-  .btn-group {
+}
+
+.btn-group {
   margin: 0 auto;
   text-align: center;
   width: inherit;
   display: inline-block;
-  }
-  .day {
+}
+
+.day {
   color: white;
   font-size: 20px;
   font-family: Lucida Sans Unicode;
   display: inline;
-  }
+}
+
 /*FOOTER*/
 footer {
   background-color: #292c2f;
   color: #bbb;
   position: relative;
-  height: 170px;
+  height: 180px;
   clear: both;
 }
 
 footer a {
   color: #999;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 footer a:hover, footer a:focus {
   color: #aaa;
-  text-decoration:none;
-  border-bottom:1px dotted #999;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
 }
 
 footer .form-control {
-    background-color: #1f2022;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    border: none;
-    resize: none;
-    color: #d1d2d2;
-    padding: 0.7em 1em;
+  background-color: #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  color: #d1d2d2;
+  padding: 0.7em 1em;
 }
+
 /* FOOTER PLACEMENT ISSUEFIX*/
 #container {
-  min-height: 100%;
+  min-height: 80%;
 }
+
 #main {
   overflow: auto;
   padding-bottom: 100px;
