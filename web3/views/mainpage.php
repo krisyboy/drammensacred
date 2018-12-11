@@ -59,7 +59,7 @@
 
   <!-- Makeshift Jumbotron -->
   <div class="img-wrapper">
-    <img class="img-fluid" src="../Web3/root/img/newjumbo4.png"></img>
+    <img class="img-fluid" src="/web3/root/img/newjumbo4.png"></img>
     <div class="img-overlay">
       <button class="btn btn-xs btn-success my-btn">TICKETS AND SCHEDULE</button>
     </div>
@@ -75,26 +75,26 @@
     <div class="container-fluid text-center artist-container">
       <div class="row">
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
       </div>
       <br>
       <br>
       <div class="row">
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
         <div class="col-sm">
-          <img class="img-thumbnail img-artist" src="../Web3/root/img/Beharie.png">
+          <img class="img-thumbnail img-artist" src="/web3/root/img/Beharie.png">
         </div>
       </div>
     </div>
